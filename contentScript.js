@@ -72,6 +72,7 @@
       if (isDarkMode) {
         buttonContainer.style.backgroundColor = '#333'; // Dark background for dark mode
         buttonContainer.style.color = '#fff'; // White text for dark mode
+        buttonContainer.style.border = '1px solid #64ffda';; // Xaif green text for dark mode
       } else {
         buttonContainer.style.backgroundColor = '#fff'; // Light background for light mode
         buttonContainer.style.color = '#000'; // Black text for light mode
