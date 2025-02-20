@@ -9,7 +9,7 @@
     function initSwitcher() {
       const currentURL = window.location.href;
   
-      if (currentURL.includes('google.com/search')) {
+      if (currentURL.includes('google.') && currentURL.includes('/search')) {
         currentSite = 'google';
         const urlParams = new URLSearchParams(window.location.search);
         const query = urlParams.get('q') || '';
